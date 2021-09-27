@@ -7,12 +7,11 @@ ruby '3.0.0'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
-# Use Puma as the app server
-gem 'puma', '~> 5.0'
-# Use SCSS for stylesheets
-gem 'sass-rails', '>= 6'
-# Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+
+gem 'nokogiri'
+gem 'telegram-bot-ruby'
+gem 'pry'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -22,6 +21,3 @@ end
 group :development do
   gem 'listen', '~> 3.3'
 end
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
