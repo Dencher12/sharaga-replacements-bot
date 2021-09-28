@@ -54,6 +54,7 @@ class ReplacementsParser
         str += "Препод: #{replacement[:teacher]}\n" if replacement[:teacher]
         str += "Кабинет: #{replacement[:cabinet]}\n" if replacement[:cabinet]
       end
+      str += "\n"
     end
     str
   end

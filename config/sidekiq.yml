@@ -1,0 +1,4 @@
+:schedule:
+  reps_broadcast_worker:
+    cron: '0 21 * * * *'   # Runs once at 21:00
+    class: RepsBroadcastWorker
