@@ -1,5 +1,4 @@
 require File.expand_path('../../config/environment', __dir__)
-require 'sidekiq-scheduler'
 
 class RepsBroadcastWorker
   include Sidekiq::Worker
