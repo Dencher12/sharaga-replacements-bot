@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Убийца сайта колледжа? 
 
-Things you may want to cover:
+## Возможности
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Получение замен ( измениений в расписании ) с сайта колледжа ( парсится табличка с сайта и отправляется юзеру )
+2. Автоматическое получение уведомлений при изменении расписания
